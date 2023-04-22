@@ -57,9 +57,9 @@ flights %>% inner_join(airports, by = c('origin' = 'faa')) %>%
 flights %>% inner_join(weather, by = c('year', 'month', 'day', 'hour', 'origin'))
 
 ```
----
+
 2. Data manipulation
----
+
 
 ```{r}
 #2.1. Utilice el verbo count en flights y envíe como parámetro las variables year, month, day. Luego filtre n para que sea mayor a 1000. Por último ordene n con el verbo arrange y devuelva el resultado.
